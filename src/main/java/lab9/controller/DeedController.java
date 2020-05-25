@@ -27,9 +27,9 @@ public class DeedController {
 
     //получение списка всех экземпляров
     @GetMapping(value = "/deeds")
+    @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<List<Deed>>read() {
         final List<Deed> deeds = deedService.readAll();
-
         return deeds != null &&  !deeds.isEmpty()
                 ? new ResponseEntity<>(deeds, HttpStatus.OK)
                 : new ResponseEntity<>(HttpStatus.NOT_FOUND);

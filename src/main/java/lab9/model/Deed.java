@@ -1,9 +1,20 @@
 package lab9.model;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name="deeds")
 public class Deed {
+    @Id
+    @GeneratedValue
+    @Column(name="id")
     private Integer id;
+    @Column(name = "name")
     private String name;
+    @Column(name = "status")
     private String status;
+
+    public Deed(){}
 
     public Deed(Integer id_, String name_, String status_)
     {
