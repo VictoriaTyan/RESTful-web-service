@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c3f5518-c59f-4640-bbef-376fc88797ac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab9/Web_service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab9/Web_service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lab9/controller/DeedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab9/controller/DeedController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lab9/model/Deed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab9/model/Deed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab9/service/DeedServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab9/service/DeedServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lab9/Web_service.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab9/Web_service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lab9/controller/DeedController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab9/controller/DeedController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lab9/model/Deed.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab9/model/Deed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lab9/service/DeedServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab9/service/DeedServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab9-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/lab9-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab9-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/lab9-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +42,7 @@
   <component name="ProjectId" id="1cJcxcFzgt8OU3MryxMFiuLlfYZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="C:/Вика/my_task" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -77,5 +86,18 @@
       <updated>1590250383458</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

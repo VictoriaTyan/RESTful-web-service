@@ -1,12 +1,16 @@
 package lab9.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import javax.persistence.*;
 
 @Entity
 @Table(name="deeds")
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Deed {
     @Id
-    @GeneratedValue
+    @SequenceGenerator(name = "idSeq", sequenceName = "id_seq", allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "idSeq")
     @Column(name="id")
     private Integer id;
     @Column(name = "name")
@@ -16,9 +20,8 @@ public class Deed {
 
     public Deed(){}
 
-    public Deed(Integer id_, String name_, String status_)
+    public Deed(String name_, String status_)
     {
-        this.id = id_;
         this.name = name_;
         this.status = status_;
     }

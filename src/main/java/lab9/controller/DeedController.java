@@ -51,7 +51,7 @@ public class DeedController {
         final boolean updated = deedService.update(deed, id);
 
         return updated
-                ? new ResponseEntity<>(HttpStatus.OK)
+                ? new ResponseEntity<>(HttpStatus.NO_CONTENT)
                 : new ResponseEntity<>(HttpStatus.NOT_MODIFIED);
     }
 
@@ -61,7 +61,7 @@ public class DeedController {
         final boolean deleted = deedService.delete(id);
 
         return deleted
-                ? new ResponseEntity<>(HttpStatus.OK)
+                ? new ResponseEntity<>(HttpStatus.NO_CONTENT)
                 : new ResponseEntity<>(HttpStatus.NOT_MODIFIED);
     }
 }
