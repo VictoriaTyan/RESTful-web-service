@@ -2,4 +2,5 @@ lab9\controller\DeedController.class
 lab9\service\DeedServiceImpl.class
 lab9\Web_service.class
 lab9\model\Deed.class
+lab9\repository\DeedRepository.class
 lab9\service\DeedService.class

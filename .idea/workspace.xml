@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c3f5518-c59f-4640-bbef-376fc88797ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab9/Web_service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab9/Web_service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab9/controller/DeedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab9/controller/DeedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab9/model/Deed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab9/model/Deed.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/lab9/Web_service.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab9/Web_service.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/lab9/controller/DeedController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab9/controller/DeedController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/lab9/model/Deed.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab9/model/Deed.class" afterDir="false" />
@@ -15,6 +11,8 @@
       <change beforePath="$PROJECT_DIR$/target/lab9-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/lab9-1.0-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -42,6 +41,8 @@
   <component name="ProjectId" id="1cJcxcFzgt8OU3MryxMFiuLlfYZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="C:/Вика/my_task" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -49,6 +50,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="lab9.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="lab9.service" />
     </key>
@@ -65,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.DeedControllerTest">
     <configuration name="Web_service" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="lab9.Web_service" />
       <module name="lab9" />
@@ -73,6 +80,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DeedControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab9.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab9.controller" />
+      <option name="MAIN_CLASS_NAME" value="lab9.controller.DeedControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeedControllerTest.Create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab9.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab9.controller" />
+      <option name="MAIN_CLASS_NAME" value="lab9.controller.DeedControllerTest" />
+      <option name="METHOD_NAME" value="Create" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DeedControllerTest" />
+        <item itemvalue="JUnit.DeedControllerTest.Create" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
